@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body{
+    background-image: url(assets/Espa.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: black;
+    zoom:67%;
+}
+.header{
+    display:flex;
+    background: linear-gradient(to right,rgba(0, 0, 255, 0),rgba(0, 0, 255, 0.256),rgba(0, 0, 255, 0));
+    justify-content: center;
+    align-items: center ;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%; 
+
+}
+.header a:hover{
+   color:rgba(167, 236, 225, 0.689);
+}
+.header *{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin: 15px;
+    list-style: none;
+}
+.header:hover{
+    background-color: black;
+}
+.header img{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    border-radius: 50%;
+}
+.header .hitem li{
+    display: none;
+}
+.header .hitem:hover li{
+    display: block ;
+}
+ion-icon{
+    width: 25px;
+    height: 25px;
+}
+ion-icon:hover{
+    width: 25px;
+    height: 25px;
+    transform: translateY(-10px);
+}
+
+.contenu{
+    background-color: black;
+}
+.f1  {
+    white-space: ;
+    background-color: black;
+    width: 800px;
+    height: 350px;
+    font-weight: bolder;
+    position:relative; 
+    border-radius:6px; 
+    transition: all 500ms; 
+    word-spacing: 5px;
+    padding: 10px;
+}
+.slide{ 
+     
+}
+.bigbang{
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: oblique;
+}
+@keyframes para{
+    from{color:black;}
+    to{color:rgb(111, 13, 171)}
+}
+.f1{
+    animation-name:para;
+    animation-duration: 5s;
+    animation-delay: 1s;
+    margin-top: 400px;
+}
+.f1 legend{
+    color:yellow;
+    font-size: xx-large;
+    font-weight: bolder;
+    text-shadow: rgba(140, 179, 207, 0.587) 5px 5px ; 
+    
+ }
+ .f1:hover{
+     background-color:rgba(175, 209, 232, 0.598);
+     transform: translateY(5px);
+     transition: all 500ms; 
+ }
+ .video1{
+    border-radius: 6px;
+    width:800px;
+    height: 350px;
+    float:right;
+    margin-top:-350px;
+    margin-right:-0px;
+
+   
+}
+
+.tableau{
+    border-collapse: collapse;
+    box-shadow: 0 5px 50px black;
+    margin:100px;
+    border-radius: 4px;
+    background: linear-gradient(to right,rgba(0, 0, 255, 0.5),white,rgba(0, 0, 255, 0.345));
+    width: 400px;
+    box-shadow: rgb(155, 155, 176) 15px 15px;
+    margin-top: 700px;
+}
+h3 a{
+    color:rgb(2, 17, 41);
+    font-size: 25px;
+    font-style: oblique;
+    text-decoration: none;
+
+}
+
+.image{
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px black;
+}
+.image:hover{
+    transform: translateY(10px);
+    transition: all 500ms;   
+}
+thead tr {
+    background-color: rgba(73, 87, 241, 0.621);
+    color: black;
+    text-align: center;
+}
+
+th, td {
+    padding:17px;
+    color: black;
+}
+tbody tr, td, th{
+    border:2px solid #ddd;
+    border-radius:6px; 
+}
+.p2{
+    text-align: justify;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    font-family: serif;
+    text-overflow: ellipsis;
+    font-weight: bolder;
+  }
+.liens a{
+    font-size: 15px;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: -1cm;
+    color:rgb(206, 153, 37);
+    font-weight: bold;
+   text-shadow: black 2px 2px ;
+    
+}
+.footer1{
+    width: 100%;
+    height: 400px;
+    background: black;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+
+}
+.contactez_nous {
+    float: left;
+    margin-left: 3cm;
+    text-decoration:none ;
+    color:white;
+    list-style-type: none;
+    margin-top: 3cm;
+    font-style: italic;
+    font-size: larger;
+    font-weight: 40px;
+    color:white;
+}
+.contactez_nous a{
+    color:white;
+    text-decoration: none; margin-top: 3cm;
+    font-style: italic;
+    font-size: larger;
+    font-weight: 40px;
+    color:white;
+
+}
+.contactez_nous a:hover{
+    color:rgb(86, 86, 147);
+    transition: all 500ms; 
+}
+.nos_services a{
+    
+    float: right;   
+    text-decoration:none;
+    font-style: italic;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none; 
+    
+    font-weight: 40px;
+    color:white;
+}
+.nos_services {
+    list-style-type: none;
+    float:right;
+    margin-right: 4cm;
+    margin-top: 3cm;
+    white-space: pre-line;
+}
+.nos_services a:hover{
+    color:#7638b1; 
+    transition: all 500ms; 
+}
+pf{
+    color:white;
+    float: left;
+    margin-left: 12cm;
+    margin-top: 5cm;
+    align-content: center;
+    font-style: italic;
+    font-size: larger;
+    font-size:30px;
+    font-weight: bolder;
+    animation: text 3s 1;
+}
+
+@keyframes text {
+    0% {
+        color: black;
+        margin-bottom: -20px;
+    }
+
+    30% {
+        letter-spacing: 25px;
+        margin-bottom: -40px;
+    }
+
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+

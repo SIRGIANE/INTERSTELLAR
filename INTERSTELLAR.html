@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="FIRST.css">
+        <title>INTERSTELLER</title>
+        <link rel="icon" href="assets/logo.jpg" >
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+<!--Header-->
+ <div class="header">
+      <a href="INTERSTELLAR.html"><img src="assets/logo.jpg" alt="logo" width="100px" height="100px"></a>
+      <a href="INTERSTELLAR.html"><ion-icon name="home"></ion-icon>ACCEUIL</a>
+      <a href="HISTORIQUE.html"><ion-icon name="book"></ion-icon>HISTORIQUE</a>
+      <ul class="hitem">
+          <a href="Telescope.html"><ion-icon name="telescope"></ion-icon>OBSERVATION</a>
+          <li><a href="Telescope.html">CENTRE D'OBSERVATION</a></li>
+          <li><a href="Telescope.html">TELESCOPES</a></li>
+      </ul>
+      <ul class="hitem">
+          <a href="ali.html"><ion-icon name="star"></ion-icon>ASTES CELESTES</a>
+      <li><a href="planete.html">PLANETES</a></li>
+      <li><a href="etoiles.html">ETOILES</a></li>
+      <li><a href="exoplanete.html">TROU NOIRES</a></li>
+      <li><a href="exoplanete.html">LUNE</a></li>
+      </ul>
+    
+      <ul class="hitem">
+          <a href="page1.html"><ion-icon name="sparkles"></ion-icon>VIE SPACIALE</a>
+      <li><a href="comete.html">COMETE</a></li>
+      <li><a href="meteor.html">METEOR</a></li>
+      <li><a href="asteroide.html">ASTEROIDE</a></li>
+      </ul>
+      <ul class="hitem">
+          <a href="NOUVEAUTES.html"><ion-icon name="bulb"></ion-icon>AUTRE</a>
+      <li><a href="quiz.html">QUIZ</a></li>
+      <li><a href="NOUVEAUTES.html">NOUVEAUTES</a></li>
+      </ul>
+      <input type="text"
+      placeholder=" chercher ici" name="search">
+    </div>
+<!--tableau-->
+<table class="tableau" width="400px" height="300px">
+  <tbody>
+   <tr>
+     <td><h3><a href="khalid.html">Histoire de l'atronomie</a></h3></td>
+     <td><h3><center><a href="Amina.html">Telescopes</a></center></h3></td>
+     <td><h3><center><a href="exoplanete.html">Trou noir</a></center></h3></td>
+     <td><h3><center><a href="page1.html">Comète</a></center></h3></td>
+     <td><h3><a href="quiz.html">Reveillez-vous c'est un bon quiz</a></h3></td>
+   </tr>
+    <tr>
+     <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+        <a href="khalid.html">
+        <img class="image" src="assets/1-histoire.jpg" alt=""></a>
+     </td>
+     <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+   <a href="Amina.html">
+     <img class="image" src="assets/telescop.jpg" alt="TELESCOPE"></a>
+     </td>
+     <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+   <a href="Ali.html">
+     <img class="image"  src="assets/black-hole.jpg" alt="TROU NOIR"></a>
+     </td>
+     <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+   <a href="page1.html">
+     <img class="image"  src="assets/comete.jpg" alt="COMETE"></a>
+     </td>
+     <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+   <a href="quiz.html">
+     <img class="image"  src="assets/quiz.jpg" alt="QUIZ"></a>
+     </td>
+   </tr>
+   <tr>
+    <td class="p2">L'astronomie est la science de l'observation des astres et cherche
+    à expliquer leur origine, leurs éventuelles évolutions et aussi 
+    l'influence qu'ils ont physiquement sur la vie de tous les jours. <h3 class="liens"> <a href="khalid.html">Pour plus d'informations
+     cliquer Ici</a></h3>
+     </td>
+     <td class="p2">Grâce au télescope, l’astronomie connaît un essor dans
+    les siècles qui suivront, l’observation du ciel se transforme en 
+    véritable profession à plein temps, et le nombre d’objets célestes
+     découverts s’accroît. <h3 class="liens"><a href="amina.html">Pour plus d'informations cliquer Ici</a></h3>
+     </td>
+     <td class="p2"> un trou noir est un objet céleste si compact que l'intensité de 
+   son champ gravitationnel empêche toute forme de matière ou de rayonnement
+   de s'en échapper. <h3 class="liens"><a href="khalid.html">Pour plus d'information cliquer Ici</a></h3>
+     </td>
+     <td class="p2">Une comète est,en astronomie, un petit corps céleste constituéd'un noyau de glace et de poussière en orbite autour d'une étoile.<h3 class="liens"><a href="page1.html">Pour plus d'information cliquer Ici </a></h3></td>
+ <td class="p2"><h3 class="liens"><a href="quiz.html"> <center>Space QUIZ</center></a></h3>
+     </td>
+     </tr>
+ </tbody></table>
+      <div class="contenu">
+          
+         <div class="slide">
+            <style>
+              ul, li { display: block; }
+              #body {
+                  left: 50%;
+                  width: 609px;
+                  height: 405px;
+                  display: block;
+                  position: absolute;
+                  margin-left: -305px;
+              }
+              #body * {
+                  user-select: none;
+                  -ms-user-select: none;
+                  -moz-user-select: none;
+                  -khtml-user-select: none;
+                  -webkit-user-select: none;
+                  -webkit-touch-callout: none;
+              }
+              
+              #body input { display: none; }
+              
+              #img-inner {
+                  top: 0;
+                  opacity: 0;
+                  width: 609px;
+                  height: 405px;
+                  display: block;
+                  position: absolute;
+                  
+                  transform: scale(0);
+                  -moz-transform: scale(0);
+                  -webkit-transform: scale(0);
+                  
+                  transition: all .7s ease-in-out;
+                  -moz-transition: all .7s ease-in-out;
+                  -webkit-transition: all .7s ease-in-out;
+              }
+              
+              #img-inner img {
+                  width: 100%;
+                  height: 100%;
+              }
+              
+              #img-inner:nth-of-type(1) {
+                  /* And... CSS3 image preloading :D */
+                  background-image:
+                      url("assets/black-hole.jpg"),
+                      url("assets/pexels.jpg"),
+                      url("assets/home.jpg"),
+                      url("assets/pexels.jpg"),
+                      url("assets/home.jpg"),
+                      url("assets/lune.jpg");
+               
+              }
+              
+              #img-inner:hover ~ label.sb-bignav { opacity: 0.5; }
+              
+              label.sb-bignav:hover { opacity: 1; }
+              
+              
+              .sb-bignav {
+                  width: 200px;
+                  height: 100%;
+                  display: none;
+                  position: absolute;
+                  
+                  opacity: 0;
+                  z-index: 9;
+                  cursor: pointer;
+                  
+                  transition: opacity .2s;
+                  -moz-transition: opacity .2s;
+                  -webkit-transition: opacity .2s;
+                
+                  color: white;
+                  font-size: 156pt;
+                  text-align: center;
+                  line-height: 380px;
+                  font-family: "Varela Round", sans-serif;
+                  background-color: rgba(255, 255, 255, .3);
+                  text-shadow: 0px 0px 15px rgb(119, 119, 119);
+              }
+              
+              label[title="Next"] { right: 0; }
+              
+              input:checked + li > #img-inner {
+                  opacity: 1;
+                      
+                  transform: scale(1);
+                  -moz-transform: scale(1);
+                  -webkit-transform: scale(1);
+                  
+                  transition: opacity 1s ease-in-out;
+                  -moz-transition: opacity 1s ease-in-out;
+                  -webkit-transition: opacity 1s ease-in-out;
+              }
+              
+              input:checked + li > label { display: block; }
+                  </style>
+                  <ul id="body">
+                      <input type="radio" name="radio-btn" id="img-1" checked />
+                      <li id="img-container">
+                          <div id="img-inner">
+                              <img src="assets/pexels.jpg">
+                          </div>
+                          <label for="img-6" class="sb-bignav" title="Previous">&#x2039;</label>
+                          <label for="img-2" class="sb-bignav" title="Next">&#x203a;</label>
+                      </li>
+                      
+                      <input type="radio" name="radio-btn" id="img-2" />
+                      <li id="img-container">
+                          <div id="img-inner">
+                              <img src="assets/home.jpg">
+                          </div>
+                          <label for="img-1" class="sb-bignav" title="Previous">&#x2039;</label>
+                          <label for="img-3" class="sb-bignav" title="Next">&#x203a;</label>
+                      </li>
+                      
+                      <input type="radio" name="radio-btn" id="img-5" />
+                      <li id="img-container">
+                          <div id="img-inner">
+                              <img src="assets/lune.jpg">
+                          </div>
+                          <label for="img-4" class="sb-bignav" title="Previous">&#x2039;</label>
+                          <label for="img-6" class="sb-bignav" title="Next">&#x203a;</label>
+                      </li>
+                      
+                      <input type="radio" name="radio-btn" id="img-6" />
+                      <li id="img-container">
+                          <div id="img-inner">
+                              <img src="assets/lune2.jpg">
+                          </div>
+                          <label for="img-5" class="sb-bignav" title="Previous">&#x2039;</label>
+                          <label for="img-1" class="sb-bignav" title="Next">&#x203a;</label>
+                      </li>        
+                  </ul>
+                </div><br><br>
+        
+          <Fieldset class="f1">
+            <legend> &nbsp&nbspBIG BANG</legend>
+              <p1 class="bigbang">&nbsp&nbsp &nbsp&nbsp  
+                ✨Le Big Bang (Grand Boum 💣) est un modèle cosmologique utilisé par les scientifiques pour décrire l'origine et l'évolution de l'Univers. De façon générale, le terme "Big Bang" est associé à toutes les théories qui décrivent notre Univers comme issu d'une dilatation rapide. Par extension, il est également associé à cette époque dense et chaude qu'a connue l'Univers il y a 13,8 milliards d'années, sans que cela préjuge de l'existence d'un « instant initial » ou d'un commencement à son histoire. La comparaison avec une explosion, souvent employée, est elle aussi impropre.
+              </p>
+          </Fieldset>
+            <video muted autoplay controls loop class="video1" poster="assets/ASTRO.jpg">
+              <source src="assets/ASTRO.mp4" type="audio/mpeg" >
+           </video>
+     </div>
+  <!--FOOTER-->
+  <div class="footer1">
+    <div class="footer">
+      <div class="contactez_nous">
+        <li><a href="https://www.facebook.com/profile.php?id=100088952762615"><ion-icon name="logo-facebook"> </ion-icon>
+         Facebook</a></li><br><br>
+        <li><a href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+          Instagram</a></li><br><br>
+        <li><a href="#"><ion-icon name="logo-twitter"></ion-icon>
+          Twitter</a></li><br><br>
+        <li> <a href="#"><ion-icon name="logo-youtube"></ion-icon>
+         Youtube</a></li><br><br>
+      </div>
+      <div class="nos_services">
+        <li><a class="service"href="#">Nos services&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</a></li><br><br><br>
+        <li><a href="https://www.facebook.com/profile.php?id=100088952762615">🧐&nbsp&nbsp&nbspReservation dans l'hotel avenue M "Meydene"</a></li><br><br>
+       <li><a href="https://www.facebook.com/profile.php?id=100088952762615">🧐&nbsp&nbsp&nbspReservation pour faire un tour dans le Centre
+         Culturel Marrakech Atlas Golf</a></li>
+      </div>
+      <pf class="astro">
+        INTERSTELLAR &copy; 2022
+    </pf>
+    </div>
+</div>
+    </body>
+</html>

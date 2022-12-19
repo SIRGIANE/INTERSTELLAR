@@ -1,0 +1,167 @@
+body{
+   
+    background-color: black;
+
+   
+}
+.header{
+    display:flex;
+    background: linear-gradient(to right,rgba(0, 0, 255, 0),rgba(0, 0, 255, 0.256),rgba(0, 0, 255, 0));
+    justify-content: center;
+    align-items: center ;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+    zoom:67%; 
+
+}
+.header a:hover{
+   color:rgba(167, 236, 225, 0.689);
+}
+.header *{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    margin: 15px;
+    list-style: none;
+}
+.header:hover{
+    background-color: black;
+}
+.header img{
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    border-radius: 50%;
+}
+.header .hitem li{
+    display: none;
+}
+.header .hitem:hover li{
+    display: block ;
+}
+ion-icon{
+    width: 25px;
+    height: 25px;
+}
+ion-icon:hover{
+    width: 25px;
+    height: 25px;
+    transform: translateY(-10px);
+}
+.prem-titre{
+    color: white;
+}
+.div-titre{
+    background-image: url(lune.jpg);
+    background-image: url(gif.gif);
+    border-radius: 50%;
+    border: 1px solid  white;
+    width: 450px;
+    height: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+.titre{
+    
+    font-size: 25px;
+    margin-top: 15%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 95px;
+}
+
+
+.para_div{
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-style: italic;
+    
+}
+.para-2021{
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+}
+.para12021{
+    display: inline;
+    font-size: 18px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3{
+    font-size: 25px;
+    color: rgb(196, 196, 107);
+    font-style: italic;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    
+    
+}
+.h3-2021{
+    margin-left: 120px;
+}
+.div-2021{
+    border: 2px dotted ;
+    padding: 10px;
+    background-color: rgb(95, 95, 147);
+}
+.image12021{
+    margin-top:20px;
+    width: 400px;
+    height: 200px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+
+.div1_2021{
+    width: 85%;
+    height: 210px;
+    border: 3px solid black;
+    box-shadow: 3px 3px 10px white;
+    padding: 15px ;
+    border-radius: 10px;
+    background-color: #2e587a;
+    margin-left: 10px;
+}
+.div2_2021{
+    width: 85%;
+    height: 203;
+    border: 3px solid black;
+    box-shadow: 3px 3px 10px white;
+    margin-left: 120px;
+    padding: 15px ;
+    border-radius: 12px;
+    background-color: #26506a ;
+    color: white;
+}
+img:hover{
+    border: 5px white;
+    transform: translateX(15px);
+    
+}
+.para-video{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+}
+video{
+    border: 1px solid white;
+}
+.video1{
+     width: 500px;
+     height: 360px;
+
+}
+
+

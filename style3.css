@@ -1,0 +1,366 @@
+body {font-family: arial;}
+.header{
+  display:flex;
+  background: linear-gradient(to right,rgba(0, 0, 255, 0),rgba(0, 0, 255, 0.256),rgba(0, 0, 255, 0));
+  justify-content: center;
+  align-items: center ;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 50%;
+  zoom:67%; 
+
+}
+.header a:hover{
+ color:rgba(167, 236, 225, 0.689);
+}
+.header *{
+  text-decoration: none;
+  color: white;
+  font-size: large;
+  margin: 15px;
+  list-style: none;
+}
+.header:hover{
+  background-color: black;
+}
+.header img{
+  width: 80px;
+  height: 80px;
+  margin: 0;
+  border-radius: 50%;
+}
+.header .hitem li{
+  display: none;
+}
+.header .hitem:hover li{
+  display: block ;
+}
+ion-icon{
+  width: 25px;
+  height: 25px;
+}
+ion-icon:hover{
+  width: 25px;
+  height: 25px;
+  transform: translateY(-10px);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+
+}
+iframe{
+position: fixed;
+   left: 0;
+   top:300px;
+   width:460px;
+	height:240px;
+	
+}
+
+.texte_centrer {
+  position: absolute;
+  color:white;
+  bottom: 19%;
+  font-weight: bold;
+  transform:middle;
+ font-size:45px;
+  letter-spacing:6px;
+  left:500px;
+  font-style:italic;
+  font-family:Arial Black
+  
+}
+
+
+.mySlides1
+{
+vertical-align:middle;
+right:130px;
+position:relative
+
+}
+ 
+ /* Slideshow container */
+ .slideshow-container {
+   max-width: 1000px;
+   position:none;
+   margin: auto;
+ }
+
+ /* The dots/bullets/indicators */
+ .dot1 {
+   height: 15px;
+   width: 15px;
+   margin: 0 2px;
+   background-color: #bbb;
+   border-radius: 50%;
+   display: inline-block;
+   transition: background-color 0.6s ease;
+ }
+ 
+ 
+ .active {
+   background-color: #717171;
+ }
+ 
+ /* Fading animation */
+ .fade {
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+ 
+ @keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+html{box-sizing:border-box;
+overflow-x:hidden;
+color:white;
+font-size:20px;
+background-color:black;
+font-style:italic
+}
+*,*:before,*:after{box-sizing:inherit
+}
+html{
+box-sizing:border-box;
+overflow-x:hidden;
+color:white;
+font-size:20px;
+background-color:black;
+font-style:italic;
+font-family: Arial, Helvetica, sans-serif;
+ margin: 20px;
+
+text-align: justify;
+-webkit-text-size-adjust:100%
+}
+body{margin:0}
+
+
+html,body{font-family:Verdana,sans-serif;
+font-size:15px;
+line-height:1.5
+}
+html{overflow-x:hidden
+}
+
+h1{font-size:36px;
+animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  font-size:30px;
+ font-weight:bold;
+ text-shadow:10px 10px 20px orange;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+h4{font-size:20px
+}
+h5{font-size:18px
+}
+
+h1,h4,h5{font-family:"Segoe UI",Arial,sans-serif;
+font-weight:400;
+margin:10px;
+}
+hr{
+border:0;
+border-top:1px solid #eee;
+margin:20px 0;
+}
+.Karima-image2{
+width:100%;
+height:360px;
+box-shadow:10px 10px 20px green;
+margin-top:200px;
+margin-bottom:100px;
+
+}
+.Karima-wide{
+letter-spacing:4px;
+}
+
+.Karima-image3{width:100%;
+height:300px;
+box-shadow:10px 10px 20px green;
+}
+.Karima-image4{
+width:100%;
+height:350px;
+box-shadow:10px 10px 20px green;
+margin-top:100px;
+	
+
+}
+.Karima-display-container{
+position:relative;
+}
+.Karima-text{
+display:none;
+}
+.Karima-text{
+display:inline-block;
+}
+.Karima-center {
+text-align:center;
+}
+.Karima-container:after,.Karima-container:before,.Karima-row:after,.Karima-row:before,.Karima-row-padding:after,.Karima-row-padding:before,
+.Karima-cell-row:before,.Karima-cell-row:after{
+content:"";display:table;
+clear:both;
+}
+.Karima-col,.Karima-half,.Karima-third,.Karima-twothird,.Karima-threequarter,.Karima-quarter{
+float:left;
+width:100%;
+}
+
+@media (min-width:601px){
+.Karima-col.m6,.Karima-half{
+width:49.99999%;
+}}
+
+@media (min-width:993px){
+.Karima-col.l6{
+width:49.99999%;
+}}
+.Karima-content{
+margin-left:auto;
+margin-right:auto;
+max-width:980x
+}
+.Karima-display-container:hover{
+display:block;
+}
+.Karima-display-container:hover span.Karima-display-hover{
+display:inline-block
+}
+.Karima-display-hover{
+display:none;
+}
+.Karima-round{
+border-radius:4px;
+}
+.Karima-container{
+padding:0.01em 16px;
+}
+.Karima-opacity{
+opacity:0.60;
+}
+/*.Karima-opacity-max{opacity:0.25}.Karima-opacity-min{opacity:0.75}*/
+.Karima-large{
+font-size:18px!important
+}
+.Karima-center{
+text-align:center!important
+}
+.Karima-hide-small{
+padding:4px 8px!important
+}
+.Karima-padding{
+padding:8px 16px!important
+}
+.Karima-padding-large{
+padding:12px 24px!important
+}
+.Karima-padding-64{
+padding-top:64px!important;
+padding-bottom:64px!important
+}
+
+/* Colors */
+.Karima-text-grey,.Karima-hover-text-grey:hover,.Karima-text-gray,.Karima-hover-text-gray:hover{color:#757575}
+.Karima-image{	
+ box-shadow:10px 10px 20px green;
+ height:500px;
+}
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 400px;
+  background-color:grey;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px 15px;
+  position: absolute;
+  z-index: 1;
+  bottom: 90%;
+  left: 50%;
+margin-left: -80px;}
+.popup .popuptext {
+animation-duration: 3s;
+  animation-name: slidein;
+}
+
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popup .show {
+  visibility: visible;
+
+}
+
+ /* pagination position styling */
+  .pagination{
+    position: relative;
+  }
+ 
+  /* pagination styling */
+  .pagination a {
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+	
+  }
+ 
+  /* pagination hover effect on non-active */
+  .pagination a:hover:not(.active) {
+    
+    color: white;
+  }
+ 
+  /* pagination hover effect on active*/
+ 
+  a:nth-child(3) {
+    
+    color: white;
+  }
+ 
+  a:nth-child(2) {
+    font-weight: bold;
+  }
+ 
+ a:nth-child(1) {
+    font-weight: bold;
+  }
+ 
+  
